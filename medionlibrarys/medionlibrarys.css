@@ -1,0 +1,155 @@
+body {
+        width: 900;
+        margin: 0 auto;
+        color: black;
+        font-size:20px;
+        font-family: Helvetica;
+  		padding: 100px;
+  		border-color: gray;
+		border-width: 5px;
+		border-style: solid;
+    }
+
+#menu {
+left:0;
+top:0;
+width:100%;
+height:80px;
+background:gray;
+z-index:4;
+}
+
+body>#rahmen { padding-top:80px; }
+
+body>#menu { position:fixed; }
+
+body>#inhalt { position:static; }
+.button {
+	
+
+    margin: 30px;
+    padding: 10 60px;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px/25px Arial, sans-serif;
+ 
+    text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+ 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+ 
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+ 
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+/* Green Color */
+ 
+.green {
+    color: #3e5706;
+ 
+    background: #a5cd4e; /* Old browsers */
+    background: -moz-linear-gradient(top,  #a5cd4e 0%, #6b8f1a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a5cd4e), color-stop(100%,#6b8f1a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%); /* IE10+ */
+    background: linear-gradient(top,  #a5cd4e 0%,#6b8f1a 100%); /* W3C */
+}
+ 
+/* Blue Color */
+ 
+.blue {
+    color: #19667d;
+ 
+    background: #70c9e3; /* Old browsers */
+    background: -moz-linear-gradient(top,  #70c9e3 0%, #39a0be 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#70c9e3), color-stop(100%,#39a0be)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #70c9e3 0%,#39a0be 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #70c9e3 0%,#39a0be 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #70c9e3 0%,#39a0be 100%); /* IE10+ */
+    background: linear-gradient(top,  #70c9e3 0%,#39a0be 100%); /* W3C */
+}
+ 
+/* Gray Color */
+ 
+.gray {
+    color: #515151;
+ 
+    background: #d3d3d3; /* Old browsers */
+    background: -moz-linear-gradient(top,  #d3d3d3 0%, #8a8a8a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d3d3), color-stop(100%,#8a8a8a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%); /* IE10+ */
+    background: linear-gradient(top,  #d3d3d3 0%,#8a8a8a 100%); /* W3C */
+}
+
+    .box {
+        float: middle;
+        padding: 0px;
+
+     }
+    .box-titel {
+    text-align: center;
+        border: 2px solid white;
+        float: middle;
+        width: auto; height:25px;	
+    }
+    .box-oben-mitte {
+        border: 2px solid white;
+        float: middle;
+        width: auto; height:25px;
+    }
+
+    .box-bild {
+
+    margin-left: auto;
+    margin-right: auto;
+        border: 2px solid white;
+        float: middle;
+        width: auto; height:600px;
+    }
+    .box-text {
+        border: 2px solid white;
+        float: middle;
+        width: auto; height: auto;
+    }
+    .box-info {
+font-family: Arial;
+color: red;
+        border: 2px solid white;
+        float: middle;
+        width: auto; height: auto;
+    }
+
+
+    .box-folgentext {
+        border: 2px solid white;
+        float: middle;
+        width: auto; height: auto;
+    }
+ .box-folgen {
+     display: flex;
+  align-items: center;
+  justify-content: center;
+   float: left;
+        border: 2px solid white;
+        width: 29px; height:25px;
+
+    }
+    .box-balken {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+        border: 2px solid white;
+        float: middle;
+        width: 100%; height: 125px;
+    } 	
+
